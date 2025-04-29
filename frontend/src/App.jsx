@@ -9,7 +9,7 @@ import { useAuthStore } from "./store/authUser"
 import { useEffect } from "react"
 import { Loader } from "lucide-react"
 import ScrollToTop from "./components/ScrollToTop"
-import SearchPage from "./pages/searchPage"
+import SearchPage from "./pages/SearchPage"
 import SearchHistoryPage from "./pages/SearchHistoryPage"
 import NotFoundPage from "./pages/404"
 
