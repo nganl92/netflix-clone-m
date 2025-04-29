@@ -52,7 +52,7 @@ const MovieSlider = ({category}) => {
                 {content.map((item) => (
                     <Link to={`/watch/${item.id}`} className='min-w-[250px] relative group' key={item.id}> 
                     <div className="rounded-lg overflow-hidden">
-                    <img src={SMALL_IMG_BASIC_URL + (result.poster_path || result.backdrop_path)} alt="Movie image" 
+                    <img src={SMALL_IMG_BASIC_URL + (item.poster_path || item.backdrop_path)} alt="Movie image" 
                         className='transition-transform duration-300 ease-in-out group-hover:scale-125'/>
                     </div>
                     <p className='mt-2 text-center'>{item.name || item.title}</p>
